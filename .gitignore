@@ -1,0 +1,17 @@
+# Generated datasets — ignore new ones, keep the paper datasets
+data/*.pkl
+!data/*_paper.pkl
+
+# Generated figures (can be reproduced by running the scripts)
+figures/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
